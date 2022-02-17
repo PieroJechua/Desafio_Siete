@@ -1,0 +1,46 @@
+
+/*-------------------- ESTILOS DE PAGINAS INTERNAS ---------------------*/
+
+@import "../base/mapas";
+@import "../base/mixin";
+@import "../base/extends";
+
+.header-interno{
+    padding-top: 8em;
+}
+
+.Interno-img-marcador{
+    width: 5%;
+    margin: 0em 1em 0em 1em;
+}
+
+.Titulo{
+    margin-bottom: 2em;
+    margin-right: 3em;
+    color: map-get($map: $coloresLetras, $key: color-principal);
+}
+
+.contenido{
+    margin-right: 3em;
+    margin-bottom: 4em;
+}
+
+.contenido p{
+    text-align: justify;
+    margin-bottom: 2em;
+}
+
+.slidebar h4{
+    margin-bottom: 1em;
+    text-align: right;
+}
+
+.slidebar p{
+    margin-bottom: 1em;
+    text-align: justify;
+    margin-bottom: 2em;
+}
+
+form{
+    margin-bottom: 3em;
+}

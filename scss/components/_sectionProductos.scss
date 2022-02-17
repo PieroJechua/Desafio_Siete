@@ -1,0 +1,30 @@
+
+/*-------------------- ESTILOS DEL SECTION PRODUCTOS ---------------------*/
+
+@import "../base/mapas";
+@import "../base/mixin";
+@import "../base/extends";
+
+.productos{
+    background-color: map-get($map: $coloresFondos, $key: color-secundario);
+
+    h4{
+        padding: 2em 1em 1em 1em;
+        margin: 0em 1em 1em 1em;
+    }
+}
+
+.section-producto{
+    h5{
+        @extend %margen;
+    }
+
+    p{
+        @extend %margen;
+    }
+
+    img{
+        width: 30%;
+        margin: 1em 0em 1em 0em;
+    }
+}
